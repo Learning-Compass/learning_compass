@@ -1,0 +1,4 @@
+org\dspace\compass\schema\LearningOpportunity.class
+org\dspace\app\webui\submit\step\JSPDescribeStep.class
+org\dspace\compass\association\util\Tupple2.class
+org\dspace\compass\association\engine\CompassLoInstanceFormPopulator.class

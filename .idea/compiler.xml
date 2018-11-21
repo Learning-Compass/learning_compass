@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="additions" />
+        <module name="dspace-api" />
+        <module name="dspace-jspui" />
+        <module name="dspace-oai" />
+        <module name="dspace-rdf" />
+        <module name="dspace-rest" />
+        <module name="dspace-services" />
+        <module name="dspace-solr" />
+        <module name="dspace-sword" />
+        <module name="dspace-swordv2" />
+        <module name="dspace-xmlui" />
+        <module name="dspace-xmlui-mirage2" />
+        <module name="jspui" />
+        <module name="oai" />
+        <module name="rdf" />
+        <module name="rest" />
+        <module name="solr" />
+        <module name="sword" />
+        <module name="swordv2" />
+        <module name="xmlui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="additions" target="1.7" />
+      <module name="dspace" target="1.5" />
+      <module name="dspace-api" target="1.7" />
+      <module name="dspace-jspui" target="1.7" />
+      <module name="dspace-oai" target="1.7" />
+      <module name="dspace-parent" target="1.5" />
+      <module name="dspace-rdf" target="1.7" />
+      <module name="dspace-rest" target="1.7" />
+      <module name="dspace-services" target="1.7" />
+      <module name="dspace-solr" target="1.7" />
+      <module name="dspace-sword" target="1.7" />
+      <module name="dspace-swordv2" target="1.7" />
+      <module name="dspace-xmlui" target="1.7" />
+      <module name="dspace-xmlui-mirage2" target="1.7" />
+      <module name="jspui" target="1.7" />
+      <module name="modules" target="1.5" />
+      <module name="oai" target="1.7" />
+      <module name="rdf" target="1.7" />
+      <module name="rest" target="1.7" />
+      <module name="solr" target="1.7" />
+      <module name="sword" target="1.7" />
+      <module name="swordv2" target="1.7" />
+      <module name="xmlui" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
